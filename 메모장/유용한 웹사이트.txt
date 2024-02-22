@@ -1,0 +1,8 @@
+react icons
+폰트어썸
+애니메이트 css
+https://remixicon.com/
+git허브
+피그마
+소스트리
+파비콘제너레이트

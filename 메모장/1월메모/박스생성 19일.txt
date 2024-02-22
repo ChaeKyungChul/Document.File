@@ -1,0 +1,22 @@
+
+
+before()  박스 밖의 앞
+after() 박스밖의 뒤                        ㅡ> $(".before").click(function(){
+                                                $(".box").before(box2);
+prepend()박스안쪽의 글짜 앞
+append() 박스 안쪽에 글짜 뒤       ,
+
+remove()  ㅡ>박스체 삭제
+empty()  ㅡ> 내용만삭제
+
+addClass() == 클래스 추가
+remove Class() == 클래스 삭제
+toggleCalss() == 클래스 추가,삭제
+hasClass() ==> 클래스가 있는지 확인
+
+.css("키", "값")
+.css({
+     "키": "값",
+     "키2":"값2"	
+
+})

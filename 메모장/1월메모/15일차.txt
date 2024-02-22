@@ -1,0 +1,46 @@
+https://animate.css
+
+object-fit object-position
+multiple columns
+masking (?)
+box sizing
+*media queries 
+*flexbox
+*{box-sizing: border-box:}  < :   border , padding 박사안쪽으로 생성.( 패딩값 보드안으로  박스넘어가는거 방지할수잇음)
+*{box-sizing: content-box;} 기본값 : border .padding 으로 박스의크기가 늘어남 
+
+(@key)
+media queries
+@media   (  @media screen and (min-width: 400px){
+display : block inline none. inline-block . flex
+ 블록 위치 인라인블럭  // float : left , float:right  끝날떈 clear:both
+불편해서ㅡ>flex
+
+display:flex 
+
+1. flex-direction - 자식들이 쌓아지는 방향을 정의함
+ : row (가로) column(세로) row-reverse column-reverse
+2. flex-wrap: nowrap(줄바꿈인정하지않음)
+	wrap wrap-reverse
+1+2 : flex-flow : row wrap;
+(정렬)
+3. justfy-content
+	flex-start.  flex-end center space-around(가운데중심으로 정렬) space-between(양쪽끝으로 붙고 정렬)
+
+4. align-items : (justfy-content 의 직각정렬)
+stretch(부모박스의 크기를 채우도록 늘어남)
+baseline(텍스트라인에맞춤)
+	flex-start.  flex-end center space-around(가운데중심으로 정렬) space-between(양쪽끝으로 붙고 정렬)
+
+반응형(ex구글) : rwd   , 적응형 (ex네이버)
+ 				
+
+
+javascript
+재귀 함수 
+function a(){
+	for(let i = 0; i <= 10; i++){
+}
+
+		
+

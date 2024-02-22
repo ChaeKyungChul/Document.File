@@ -1,0 +1,41 @@
+1. main브랜치의 프로젝트를 원격저장소 origin으로 보냄
+git push -u origin main 
+2. 만약 error: failed to push some refs to 'https://github.com/musecom2/weddingweb.git' 발생할 경우
+ git pull origin main
+3. git pull origin main 에서 
+
+   fatal: refusing to merge unrelated histories
+
+  (두 저장소에 존재하는 히스토리가 다르다... ???)
+4. git pull origin main --allow-unrelated-histories 
+5. git push origin +main
+
+
+
+git remote remove orgin
+git romote add origin https://토큰 @~~
+
+
+git add README.md
+
+echo "# weddingR" >> README.md
+git init
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/musecom2/weddingR.git
+git push -u origin main
+
+
+아이디.github.io
+
+git remote remove origin
+git remote add origin 레포지토리주소
+git push -u origin +main
+<  ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/cheakyungchul/cheakyugnchul.github.io' 오류 뜨면 
+$ git push origin +master 입력
+
+error: remote origin already exists.
+1. git remote remove origin
+ git remote add origin [새롭게 연결할 깃 레파지토리 주소] 명령어를 입력합니다.

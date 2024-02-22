@@ -1,0 +1,24 @@
+변수 -- x = 10; 
+          y = 20;
+          z = x+y; z의값은?
+ 
+기본타입                  참조타입
+
+숫자(number) : int, long, float, double       객체(Object)
+문자열(string)            배열(Array)
+불린값              함수 (Function)
+undefined                정규표현식
+null
+
+
+자바스크립트 ㅡ> 타입 스크립트
+var num = 10; num="철수";
+
+ducumenet.write(코드);
+
+연산 
+ +
+ -
+ *
+ /
+ % (나머지)

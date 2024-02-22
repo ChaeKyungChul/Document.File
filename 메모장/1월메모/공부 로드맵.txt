@@ -1,0 +1,16 @@
+15일 공부할 일정
+1.javascript
+  순수자바스크립트 : 바니라스립트
+2.jquery : 70%이상씀  - 웹디자인 기능사 - jquery 
+  bootstrap -- css, javacript 세팅대있음- 
+3.json, ajax = api 쓰기
+4. java
+  -java 기초
+  -javaFX(?) or java swing == > gui  -> 시간보고
+  -java servlet
+  -java spring
+  *-android (?)
+  -java spring boot
+
+5 javasvript 고급 nodejs, react
+ - react native (?)

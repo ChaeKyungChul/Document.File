@@ -1,0 +1,52 @@
+Exception (예외) -->NullPointerException
+
+배열변수[])     
+int[] num2 = null;
+num2[0] = 10;  ,> NullPointerException 에러   // Exception in thread "main" java.lang.NullPointerException
+
+String str = null;
+system.out.println("str변수의 길이" + str.length());
+
+Garbage Collector(쓰레기 수집기)    <<--쓸모없는거 삭제
+------------------------------------------
+String str = "홍길동" ;  <<Garbage Collector
+str = "김철수";
+
+String hobby = "여행" ; //  힙영역에 "여행" 이라는 객체가 생성되고 주소가 hobby에 할당
+				hobby = null ; // 여행이라는 String 객체가 쓰레기가됨
+ ---------------------------------------
+
+String str = "홍길동";
+Strung str = new String("홍길동")
+
+String str = null;  //힙영역 주소 x
+String str2 = ""; //힙영역 주소 o 빈값이있음
+
+---------------------------------------------------------
+
+$("#var").var()== "";
+-------------------------
+charAt() 문자열 추출
+
+주민번호 뒤의 한자리 까지를 받아서 남자인지 여자인지 판별하시오
+Scanner 이용
+----------------------------------------------------
+자바 문자열은 ㅁ불변입니다. 자바 문자열은
+String 입니다.
+자바를 java로 대체 하시오 
+replace 리플레이스 대체
+-----------------------------------
+substr < 자바사용x
+substring (시작, 끝)
+1. Hello, World! 에서 World 만 추출하시오.
+2. Hello 만 추출하시오
+
+		String hello = "Hello, World!";
+		System.out.println( hello.substring(7, 12));
+		System.out.println( hello.substring(0, 5));
+------------------------------------------------------------
+indexOf() ==> 검색이되면 index 리턴   검색이 안되면 -1 리턴      -> int타입   
+contains ==>  검색이되면 true  , 검색이안되면 false  -> boolean 타입
+ --------------------------------------------------
+
+

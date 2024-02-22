@@ -1,0 +1,87 @@
+vi. = vim
+nano
+<git 이용법>
+git init 
+git add  . git add "파일명"
+git commit  -m "커밋내용"
+
+gitignore 관리x
+
+git status 상황
+git log
+git branch 
+
+-------
+자바스크립
+외곽선의 굶기 상태 컬러
+
+border-width(외곽선 굶기)=1px;
+border-style: solid, dotted, dashed 
+border-color:컬러값
+ 
+4개 : top right bottom left
+
+2개 : top. bootom   , right.left
+
+3개 : top   left.right bottom
+/* 1번  외곽선 검정색 5px 실선
+2. 바탕색 옅은 연두색  오른쪽 상단 왼쪽 하단 모서리 10px 둥글게 한후 외곽선을 파랑색2px 점선(dash) 로 만드시오
+3번 하나의 국가박스에 외각선 4곳의 색상을 모두 다르게하시오
+4번 하나의  국가박스에 외ㅏ각선 2곳의 두께와 색상을 다르게하시오 */
+
+javascript
+function 함수이름(재료) 
+
+두수를 곱하는 함수를만드시오
+두수의 합이 홀수 인지 짝수인지 판별하는 함수를만드시오
+호이스팅
+화살표함수
+
+let 은 모든곳
+var 는 
+
+
+//var 는 함수 스코프의 적용을 받음
+//let 은 모든 스코프의 적용을 받음
+함수밖에쓴 var 변수1과 함수 안에쓴 var 변수1은 다른변수이다.     var는 두번선언가능 var는 함수에서만적용
+그러나 if문등 다른스코프에서는 같은 변수이다.
+
+모든 스코프 밖에 쓴 let과 안에 쓴 let은 다른변수이다. (if 안에는 함수 다시적용 다른것)
+
+객체-- calss 
+모든 사물은 객체
+ 상태,행위
+- 피부가 까맣다.(상태 프로퍼티 - property )
+- 걸어다닌다(); (행위 메서드 - method)
+
+tv 객체(object)
+- property
+
+tv{ 
+-너비 
+ -높이
+ - 인치
+ - 제품
+ - 무게 
+
+ -켜다
+ -끄다()
+ -볼륨을 높이다()
+} 
+tv.너비
+tv.끄다()
+
+자바스크립트가 내장하고 있는 객체 : 내장객체
+string, date, array(배열), math(수학 올림내림)
+브라우저 객체 모델 
+window. screen. location, history, vavigator 
+문서객체
+new Object(); // 생성자 객체내장객체
+
+
+
+
+
+ 
+ 
+

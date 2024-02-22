@@ -1,0 +1,22 @@
+20일 java script 에서 dom 탐색
+
+- 네가지 노드정도를 기억하자
+ 1. 문서 노드 (Document Node)
+ 2.  요소 노드 (Element Node)
+ 3. 어트리뷰트 노드 (Attribute Node)
+ 4. 텍스트노드 (Text Node )
+
+-dom query
+ 1. id 선택 = document.getElementByld
+ 2. 셀렉터로 선택 == document.querySelector
+ 3. class 선택 = document.getElementsByClassName
+ 4. 태그 네임 선택자 = document.getElementsByTagName
+ 5. document.querySelectorAll 
+ 
+ - 부모노드 = parent prarents parentsUntil  (https://www.w3schools.com/jquery/jquery_traversing_ancestors.asp)
+ - 자식노드 = children ,  find 
+ - 형제노드 = siblings()  next() nextaAll() prev() prevAll() prevUntil()
+  parentNode
+   
+    firstChild ,  lastChild 
+

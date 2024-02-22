@@ -1,0 +1,65 @@
+get 외부
+post 내부
+
+input type="text"
+input type="password"
+
+input type="button"
+input type="submit"
+input type="reset"
+
+button type="button"
+
+
+select > option   선택버튼
+input type="radio"  선택버튼
+input type="checkbox"   true - false
+input type="file"
+textarea 본문을 쓸대
+
+컴퓨터 text 
+모바일
+
+"네이버, 다음 구글, 야후 중 즐겨 사용하는 포털검색사이트는?"
+
+구글이면 변수 = 구글 url 저장
+네이버 네이버 url 저장
+선택한 것이 없으면 alert("보기중에 없습니다.");
+...
+
+if(url)  location.herf="http://"+url; 
+
+
+
+반복문
+while(조건식){
+}
+
+a = 1;
+while(a < 10) { 
+console.log(a); 1 2 3 4
+a++; -- 5
+
+조건문 / 선택문/반복문/
+
+<a href >
+<a name > "b"
+
+1부터 20까지를 출력 하되 
+홀수는 파랑색
+짝수는 빨강색
+
+
+-환경 분석
+낙타표기법 
+My car valution
+myCaValution
+
+스네이크표기법
+my_car_valution
+
+html. css 대소문자 구분하지않음 (쓰네이크 표기법씀) 윈도우에쓰임
+html. cssㅡ>암묵적으로 소문자 사용함. 
+ 
+javascript 대소문자를 구분합니다. (낙타표기법)  리눅스쓰임
+

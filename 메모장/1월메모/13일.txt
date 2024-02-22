@@ -1,0 +1,8 @@
+1팀장 팀원3
+1 이메일공유
+레포지토리 settings
+-> collaborators
+-> add people 에 팀원등록 깃허브계쩡
+팀원들 메일을 받아 view invititaon  클릭
+ -> 초대수락 (Accept invitation) 클ㄹ릭 
+

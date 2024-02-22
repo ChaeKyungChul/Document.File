@@ -1,0 +1,33 @@
+문자를 ㅡ> 숫자타입으로
+String str = "10"
+byte val  = Byte.parseByte(str);
+short val Short.parseShort(str);
+
+숫자 ㅡ> 문자타입으로
+
+String val = String.valueOf();
+
+StringConvExam {
+    
+
+}
+1. 리터럴 "10" 을 int로 변환 하시오
+2. 리터럴 "3.14를" double로 변환 하시오.
+3. 리터럴 "true"를 boolean으로 변환 하시오.
+위 1, 2, 3을 출력 하시오.
+
+systme.out.println(변수 또는 리터럴);    
+system ==> 시스템으로
+out ==> 출력하는데
+print ==> 괄호안에 내용을 인쇄하라
+    ln = 줄바꿈 엘엔.     print <--> println     //+ \r
+printf("형식문자열", 갑1,갑2....)         <  "f"요놈
+
+%s(문자)   %s(숫자)
+
+
+--------
+숫자열이 같은지 조사할때 a == b
+문자열ㅇ ㅣ같은지 조사할때 a.equals("b")
+scanner 를 이용하여 가위바위 보 게임을만들어보세요
+

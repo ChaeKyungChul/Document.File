@@ -1,0 +1,30 @@
+자바
+byte num1 = 1;
+byte num2 = 2;
+byte < 에러
+int result :로꼐산 연산
+
+byte, short , int 연산의 결과는 int, 부호변경 연산도 연산이기 떄문에
+int 로 저장되어야한다.
+
+++i 
+i++     i = i + 1;
+--i 
+i-- i = i -1 ;
+
+int x = 1;
+int y = 1;
+int rs = ++x + 10;         ===> 12  2    ==  xx앞에서 두번더하고 + 10  = 12 ,   xx2
+int rs2 = y++ +10;        ===> 11  2 
+
+
+
+
+
+오버플로우 (overflow) 타입이 허용하는 최대값을 벗어나는 값.
+언더플로우 (underflow) 타입이 허용하는 최속밧을 벗어나는값.
+byte num = 127;
+num++;  sys ->  오버플로워  ㅡ> -128    (127오바다면 -128로)
+
+byte num2 = -128;
+num--;//127출력

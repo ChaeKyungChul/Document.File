@@ -1,0 +1,19 @@
+14일
+
+transform
+ translate(x, y, ) - > translateX(), ...이동 
+ rotate(x, y, z,) -> rotateX()... 회전
+ scale(x, y) > scaleX(), ... 크기 (단위는 몇배)
+skew(x. y) -> skewX(), ... 각도
+ matrix(크기X, 각도Y, 각도X, 크기y, 이동x 이동y)  <잘안씀
+
+transition
+  transition-delay - 언제 부터 시작할것인가?
+  transition-duration- 어느시간동안 진행할 것인가?
+  transition-property - 무엇을 애니메이션 할것인가?
+  transition-timing-function 
+1. 언제부터 시작할 것인가?
+2. 어느 시간동안 진행할 거냐 ?
+3. 
+
+버튼을 하나만들고 마우스가 올라가면  버튼 디자인이 애니메이션 되며 바뀌도록 하세요.

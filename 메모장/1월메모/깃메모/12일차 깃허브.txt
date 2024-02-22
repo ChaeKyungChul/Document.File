@@ -1,0 +1,87 @@
+git hub 등록
+토큰 복사1
+2 윈도우저장
+제어판ㅡ> 자격 증명 관리자 ㅡ> window자격증명
+인터넷주소 : 깃허브
+사용자계정 :이메일
+비번: 토큰
+
+
+git clone https://github.com/ush9211/clock.git  복사클론
+
+//////////
+git add .  (저장)
+git commit -m (커밋 + 메시지)
+
+브랜치 생성과 동시 이동
+git switch -c 새로만들브랜치이름
+
+이후에 브랜치 이동
+git switch main  
+git switch works
+
+//git hub 등록
+git push -u origin main
+git push origin works
+///////
+
+git remote add origin  주소
+git push -u oring main
+
+
+github.아이디 .github.io
+
+1. main브랜치의 프로젝트를 원격저장소 origin으로 보냄
+git push -u origin main 
+2. 만약 error: failed to push some refs to 'https://github.com/musecom2/weddingweb.git' 발생할 경우
+ git pull origin main
+3. git pull origin main 에서 
+
+   fatal: refusing to merge unrelated histories
+
+  (두 저장소에 존재하는 히스토리가 다르다... ???)
+4. git pull origin main --allow-unrelated-histories 
+5. git push origin +main
+
+
+
+git remote remove orgin
+git romote add origin https://토큰 @~~
+
+
+git add README.md
+
+echo "# weddingR" >> README.md
+git init
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/musecom2/weddingR.git
+git push -u origin main
+
+
+아이디.github.io
+
+git remote remove origin
+git remote add origin 레포지토리주소
+git push -u origin +main
+<  ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/cheakyungchul/cheakyugnchul.github.io' 오류 뜨면 
+$ git push origin +master 입력
+
+
+// 
+1. 새로 파일을 수정, 등록 , 삭제하고 커밋하면
+ check the pull request 
+2. 제목 , 내용을 입력. -> create pull pequest 클릭
+3. 화면에 빨강으로 
+review required (리뷰필요함)
+merging is blocked(머지가 막혀있다.) 표시됨
+
+4. 오른쪽 reviewers 클릭해서 리뷰할 팀원을 클릭 또는 입력
+5. 리뷰어는 pull request 1 이란 표시가 보이고 그리로 돌아가면 수정 화면을 리뷰 할수 있음
+
+확인이 끝나면 review change 클릭 승인 변경 요청 의견남기기 등 하게됨
+
+6. 마지막 승인이 끝나면 merge--> master branch에 merge 버튼
+

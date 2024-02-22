@@ -1,0 +1,29 @@
+19일     <<java 11버전다운함> > Eclipse Foundation 3.9버전다운
+시작프로그램 ㅡ> 마우스 오른쪽 시스템 ㅡ> 고급시스템
+시스템 변수 => JAVA_HOME java/bin 디렉토리까지의주소(C:\Program Files\Java11\bin)
+사용자 변수 => %변수이름%   => %JAVA_HOME%\bin
+
+컴파일 javac 명
+
+
+
+java
+Java SE - 기본에디션
+Java Standard Edition
+ -JDK (Java Development Kit) = KRE + 개발도구
+-JRE(Java Runtime Environment) JVM + 표준 클래스 라이브러리
+
+
+-JVM
+-구현체 : JDK(java development kit)
+
+Java EE - 서버 애플리케이션 개발 에디션
+- 웹 에플리케이션, 웹서비스, 
+- 구현체 : WAS (wep application server) 
+
+Java MM - (Micro Edition)
+- 임베디드, 모바일 
+
+java 8  -
+java 11  -->spring 지원
+java 17 -->spring boot

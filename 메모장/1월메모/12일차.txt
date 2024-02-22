@@ -1,0 +1,57 @@
+, : 두개다포함
+. :클래스
+> : 자손
+~ : 
+
+div p:nth-child(숫자): div의부모자식중 첫번쨰p   div포함
+
+p:first-of-type: 안에 무조건 첫번쨰 타입 
+
+  div p:first-of-type{        : div 안에 p 의 첫번째 타입 
+
+::가상요소 
+ p::first-lette     첫번째 글짜
+
+  백그라운드a
+불투명 opacity:
+  
+
+요소 선택기 
+클래스 선택기
+아이디 선택기
+
+p class= a id =b
+
+class~전부 선택  띄워쓰기
+class^ xx 로시작하는것
+class* 전부다
+
+단위
+px  -> 기본16px:
+em --> 
+           1. body 태그의 폰트의 기본 크기가 1em ==> 16px;
+	2.  부모태그의 단위가 자식태그에서 1em
+rem -->
+           1. body 태그의 폰트의 기본 크기가 1em ==>(약 16px);
+	2. 자식태그의 단위는 무조건 body태그의 폰트 크기
+%
+vw --> 뷰포트의 가로
+vh --> 뷰포트의 세로
+vmin -->뷰포트의 최소
+vmax --> 뷰포트 최대
+
+
+
+
+
+
+
+
+
+링크 ㅡ> 끝까지
+
+https://pncoding.tistory.com/32
+
+
+
+

@@ -1,0 +1,44 @@
+사파리, 오페라, visial stidio, w3schools, firefox
+==> h는 블록요소
+h1~ h6 제목
+br :줄바꿈 정형화된
+p: (블럭) 문단을 의미하는 블럭요소.
+pre : (정형호된)형식화된 테스트 의미하는요소
+hr: 밑줄
+a href="링크주소"
+
+
+자바스크립트 : 웹에서 코딩을하면 실시간으로 확인
+ --html. css, javascript
+
+ -- node.js
+자바- 코딩후 컴파일을 하는 과정이 따로필요
+
+cli 명령어
+.. 앞으로나가는것
+
+- 이동명령 : cd
+- 시스템정보 확인 : systeminfo
+- 레지스트리 편집기 실행 : regedit
+- 네트워크 상태 확인 : netstat -na
+ netstat -help 
+-  폴더내용확인 : dir (리눅스 : ls)    . 현재폴더 ..이전폴더
+- 파일복사 : copy  copy 원본이름 새로복사할이름
+- 파일이동 move
+- 파일삭제 del (리눅스 rm or remove)
+-  폴더생성 : mkdir     mkdir 폴더이름
+- redir (폴더삭제 ) redir 폴더이름
+-type (파일상태보기)
+-ipconfig (내이이피주소)
+
+
+
+*윈도우에서 포트 강제로 삭제하는법
+ netstat -a -o
+
+* pid 번호를 확인후 
+ paskkil /f pid 번호
+하여 포트를 종료시킬수있음
+...................
+
+GUI - 

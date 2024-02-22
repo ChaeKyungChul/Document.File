@@ -1,0 +1,53 @@
+언스플레시
+커버  = 짤림
+컨테인 전체다보임
+
+.hero-logo h1{
+    margin : 0;
+    padding-top:   12px;
+}
+.hero-logo p{
+    margin : 0;
+    font-size: 10px;
+    padding-top: 12px ;
+    letter-spacing: 1px;;
+
+
+git comit -m "웨딩홈페이지 
+
+
+0. git init 메인으로만들기
+0 git add .   = 저장
+0. git commit -m 메세지
+
+1. git branch main2  메인2제작
+2. git branch  브랜츠목록확인
+*main  현재 위치한브런치
+*main2
+3. git checkout main2  (메인2 브렌치로 전환)
+4. git add.
+5. git commit  -m 메세지 ""
+
+git status 
+git log
+
+
+
+
+1.
+git commit -am
+ girsday에 지선추가
+커밋메세지 : add 지선 to girsday
+
+2.
+b1a4.txt 추가 
+팀명:B1A4
+팀장: 신우
+팀원 : 신우, 산들 , 공찬
+커멧메세지 : add  boygroup B1A4
+
+3.
+b1a4 삭제
+
+
+

@@ -1,0 +1,6 @@
+JSON.parse()
+JSON.stringify()
+
+fetch(){} 
+ajax(){} j쿼리
+axios 외부

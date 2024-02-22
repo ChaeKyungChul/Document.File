@@ -1,0 +1,15 @@
+오브젝트핏 두개  컨테인  => 이미지가 다보이게 꽉차게  
+	 	커버 =>  박스에꽉차게
+
+
+-스토리 보드
+ GNB 주사이트 따라다니는것 < 어느페이지 가나 메인에있는것
+ LNB 
+
+
+$(엘리먼트).offset().left;
+$(엘리먼트).offset().top
+
+1.Math.random 
+2. css. position
+3. javasript  온클릭

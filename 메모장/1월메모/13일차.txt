@@ -1,0 +1,8 @@
+ttf (TrueType Fonts) 윈도우, 맥os용 .압축률안좋음(원본)
+otf (Open Type Fonts)         (MS에서 만듬) 주요 컴퓨터 플랫폼에서 ttf와 함께 사용
+woff (웹 오픈 글꼴) 웹 페이지에 사용되는 글꼴. 웹표준 권장 타입
+woff2.()  -woff보다 압축률이 좋음 
+svg 백터용 (엣지,크롬, 파이어폭스 사용x) ( 사파리O)
+eot -- 예전에 ms explorer 사용하는 글꼴 (크롬, 사파리, 파이어폭스, 오페라 X) (엣지O)
+
+컨트롤 쉬프트 l 전체

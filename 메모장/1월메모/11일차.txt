@@ -1,0 +1,7 @@
+11일차
+공식
+position:relative
+position : absolute
+
+
+let days=+ year + "년" + month + "월" + date + "일입니다";   

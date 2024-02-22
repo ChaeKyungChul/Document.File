@@ -1,0 +1,34 @@
+2일차 
+특수문자 : escape
+             문자표현   숫자표현
+띄어쓰기  &nbsp;      &#160;
+엠퍼센트  &amp;        &#38
+< : &lt                    &#60
+=    =                    &#61
+> : %gt                    &#62
+copyright  &copy; (©)     &#169 (저작권)         
+(<p>Copyright &copy;<a href="http://naver.com">wein<a>    )
+
+
+b,     = 글씨를 굻게 (잘안씀)                       
+strong,=잘씀 객관적인강조      ( 굻게)          em . strong 요소는 문구를 강조할때 사용
+ i ,                       (잘안씀)
+em,  =잘씀 (강조)주관적인강조 (대각선글자)
+mark ,  마킹(색)
+
+small,  작은 텍스트
+<h1> 오늘의 날씨 - 서울기상청-</h1>
+del , 글자에 줄선  
+ins   밑줄선
+sub,  숫자아래에 추가
+sup 숫자위
+
+<bdo dir="rtl">읽어지는 순서를 정할수 있습니다.</bdo>
+q. blockquote .요소는 인용을 나타냄 " "
+q는 인라인 요소. blockquote는 블럭요소
+-cite는 요소일때는 작품의 명칭,  q나  blockquoted의 속성일 때는 출처가 되는 URL을 명시
+-ins는 추가, del은 삭제를 의미하는 요소
+- ins와 del은 부모요소의 형태에 따라 인라인이 될수도  블럭이 될수도 있다.
+-sub는 아래첨자, sup는 위첨자 텍스트
+-mark는 표시된 텍스트 형광
+- abbr은 약어를 정의 title 속성으로 전체 제목을 지정

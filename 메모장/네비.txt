@@ -1,0 +1,3 @@
+global navigation = gnb  글로벌메뉴  
+local navigation - 지역 메뉴
+breadcrumb navigation

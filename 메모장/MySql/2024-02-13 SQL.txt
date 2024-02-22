@@ -1,0 +1,1 @@
+mysql -u root -p 엔터        (u유저,관리자아디 root)

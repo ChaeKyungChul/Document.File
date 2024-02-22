@@ -1,0 +1,4 @@
+cmd ㅡ>
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+페스워드
+dufrhdgkwk10@

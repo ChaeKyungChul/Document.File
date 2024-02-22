@@ -1,0 +1,23 @@
+
+-----------------------------------------------------------
+주소복사 1.
+echo "# Bootstrap" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cheakyungchul/Bootstrap.git
+git push -u origin main
+
+----------------------------------------------------
+git add .
+git commit -m "메세지"
+git push -u origin main
+순으로 하면 올라가짐
+-------------------------------------
+git add.
+commit -m "내용"
+git push
+
+수정용 올리기
+오류시 리드미 삭제

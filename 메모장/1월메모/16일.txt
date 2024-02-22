@@ -1,0 +1,23 @@
+flex-direction: row; 왼쪽정렬123  revercs 꺼꾸로 321
+justify-content: flex-end;  오른쪽정렬
+ flex-wrap: nowrap; 줄바꿈
+
+display : flex
+justify-content
+align-items    align-content: space-around;
+flex-direction 
+flex-wrap
+위에 두개합친것 flex-flow
+
+align-content
+
+
+자식태그
+order
+flex-grow 늘어나는것
+flex-shrink줄어드는것 
+flex-basis
+flex(축약)   == > grow shrink basis
+ex.  col{ flex: 0 0 300px }
+
+align-self
