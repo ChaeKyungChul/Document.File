@@ -1,0 +1,68 @@
+디자인 패턴 자바
+ -싱글톤 패턴
+class A{
+ private A(){  }
+}
+
+-객체를 생성 할 때마다 메모리 영역을 할당받아야 한다 . 하지만  new를 이용해 계속 객체가
+새로 생성된다면 메모리를 낭비 하게된다.
+
+- 싱글톤으로 구현한 인스턴스 '전역' 이므로, 다른 클래스의 인스턴스 들이 데이터를
+공유하는 것이 가능하다는 장점도 있다.
+
+- 주로 데이터베이스 커넥션플, 스레드풀, 캐시, 로그 기록 객체 등에 사용된다.
+
+- 특히 안드로이 앱에서 각 엑티비티 들이나, 클래스마다 주요 클래스를 하나하나 전달하는게 
+번거롭기 때문에 싱글톤 클래스가 자주 사용된다.
+
+- 단, 싱글톤은 너무많이 사용하게되면 결합도가 높아지고 결합도가 높아지면 유지보수가 힘들어진다.
+
+-------------------------------------------------------------------------------------------------------------------
+
+class DbDAO() {
+         //ds ...	
+      private DbDAO(){
+            ds = (DataSource).ct.lookup
+("java:comp/env/jdbc/mysql");
+     }
+     public static DbDAO getlnstance(){
+        new DbDAO(); 
+}
+}
+
+------------------------------------6장 문제
+
+
+14번
+member (String name, String id){
+	this .name = name;
+	this.id = id;
+}
+}
+15번
+pubilc class MemberService{
+	//필드 없음
+	//생성자 기본값
+	 boolean login (String id, Stirng password){
+	if(id.equals("hong") && password.equals("12345"))
+	return true;
+	}else{
+	return false;
+  }
+}
+  
+ void logout(String id) {
+ sys.....out.println(id + "님이 로그아웃 되었습니다.");
+}
+}
+16번
+Printer{
+ public void printhln(int value){
+	systme.out.println(value);
+}}
+
+
+
+
+
+
