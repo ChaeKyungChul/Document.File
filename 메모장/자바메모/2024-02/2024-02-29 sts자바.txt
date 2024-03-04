@@ -1,0 +1,30 @@
+2024-02-29 sts자바
+sts - 자바 html
+써블릿
+Sv -->
+init () -- 메모리에 로드될때
+service() -- 클라이언트의 요청을 thred로 실행
+   doGet()
+   doPoset()
+
+destroy() -- 메모리에서 서블릿 이 제거됨
+
+x.ml  :   
+<!--
+sevlet -name : 임의의 이름을 정한후
+sevlet -class 에 매핑할 클래스를 적습니다.
+url-pattern 에 매핑할 주소를 적습니다.
+--!>
+--------------------------------------------------------
+request.getParmeter(String name);
+
+getParameterValues()
+getParameter
+
+----------------------
+netstat -a -o :  포트를 확인
+
+겟 : 보내는방법 : 겟, 포스트 
+포스트 : 안보이게 보내는것  (바디쪽으로보내는것
+리스판스 : 서버측에서받는것 (주는것
+리퀘스트  : 요청하는것   겟 
