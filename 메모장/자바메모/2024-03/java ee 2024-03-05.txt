@@ -1,0 +1,31 @@
+2024 - java ee
+ServletContext 객체 ServletConfig 객체
+-ServletContext - 서블릿 컨테이너가 시작될대 애플리케이션마다 자동생성 되는 객체
+(Context 라고도함)
+
+.같은 애플리케이션 속한 서블릿들은 이 객체를 공유함.
+-servletContext 추출
+  -> ServletContext 의  getServeltContext();  를 이용해 정보를 취합하고
+  ->getlnitParameter(String name) => 이름에 해당하는 파라미터 value 값을 반환
+  ->getlnitParameterNames() = > ServletContext 에 있는 모든 파라미터 값들을  열거타입(Enumeration)으로 반환.
+
+- Context 바인딩 (임시적으로 바인딩)
+ --> setAttribute (String name, Object object); object를 name이라는 속서으로 반인딩
+ --> getAttribute(name)
+ -->removeAttribute(String name)
+set을하고ㅡ> get 가져온다.
+
+
+-ServletContext 정보 추출 메서드
+getMajorVersion() : 현재 서블릿의 Major 버전을 반환
+getMinorVersion() : 현재 서블릿의 Minor 버전을 반환
+getServerInfo() : 현재 서블릿 컨테이너의 이름,버전 정보 반환
+getContextPath() : 애플리케이션 경로
+getServletContext() : ServletContext 를 반환
+getServletContextname() : ServletContext 이름 반환
+getRelaPath(String path) : 인자로 지정된 path의 실제 경로를 반환
+
+
+
+
+------------------------------------------------------------

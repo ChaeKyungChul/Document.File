@@ -1,0 +1,65 @@
+이클립스
+자바 ee 세팅
+빌드패스 버전 16 -> 11
+컴파일러  11버전
+프로젝트 팩츠-> 11버전으로
+
+src 메인 웹 으로  index.html 만들어짐 
+web02 런타임 바로실행가능 - 
+폴더명 변경시 불가 -> lib web.xml에서변경가능
+
+servers 톰켓 wep.xml , 프로젝트파일 wep.xml 동일
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+package com.firstwep;
+
+import java.io.IOException;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/firstServlet")
+public class FirstServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    
+    public FirstServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**서블릿시작 **/
+	public void init(ServletConfig config) throws ServletException {
+		System.out.println("init 메서드 실행");
+	}
+	/*서블릿끝날때시작**/
+	public void destroy() {
+		System.out.println("destroy 메서드 실행");
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}
