@@ -1,0 +1,31 @@
+2024-03-11 JAVA
+어노테이션 : @
+ex  
+public @interface 어노테이션 이름{ 
+  String prop1 ();
+  int prop2() defatul 1;
+}
+
+@어노테이션 이름(prop1 = "1", prop2="2")
+
+어노테이션은 설정 정보.
+
+---------------------------------------------------------------
+public class Box {
+ public Object  content ;
+}
+Box box = new Box();
+box.content = "철수";  // 모든객체가능
+
+String content = (String) box.content;
+
+1. box안의 내용물을 넣기전에 이미 어떤 내용물을 넣어야 할지 알고있다.
+
+public class Box <T> {
+ public T content;
+}
+
+Box<String> box = new Box<String>();
+box.content = "스트링";
+String content = box.content; // 미리 string 타입으로 셋팅되어있기 때문에
+강제 타입 변환이 필요 없다.

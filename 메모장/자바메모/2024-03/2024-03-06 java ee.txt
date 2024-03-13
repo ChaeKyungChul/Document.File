@@ -1,0 +1,29 @@
+@WebServlet(description="서블릿 설명",
+                   userPatterns="/주소"
+                   initParams = {@WeblnitParams(name="이름", value= "값")}
+                  )
+
+어노테이션을 모두 주석처리한후 web.xml에 똑같이 세팅해보세요
+ 
+-------------------------------------------------------------------------------------
+1. 학생의 번호(정수), 이름(문자), 학점(실수) 를 받아서
+   번호에는 1을 더하고 학점에는 1.0을 빼서 출력하시오. 단 학점은 1보다큰실수입니다.
+
+출력하시오
+request.getParameter()
+
+
+2.가능한한 외국어를 모두 선택하세요.
+  영어, 불어 , 일본어 , 중국어 스페인어 , 독일어 ,한국어
+
+ 위 영역을 form 으로만들어 , getParameterNames() getParameterValues() 를 이용하여 출력하시오
+language.html
+
+-> Enumberation<String> param = request.getParameterNames();
+
+  while(param.hasMorreElememts()){
+String name = param.nextElement();
+String value = request.getParamter(name);
+out.print(name + " : " value);
+
+String [] name = requset.getParameterValues("name");
