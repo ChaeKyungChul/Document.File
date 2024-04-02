@@ -1,0 +1,36 @@
+2024-03-19 게시판 답글
+
+refid의 경우
+1. 기본 : refid 내자신의 id
+2. 만일 답글이면 : refid원글의 id
+
+renum
+1. 기본 : 1이 들어가고
+2. 만일 답글이면 : renum 보다 큰 숫자의 글은 모두+1 //
+                      원글 renum + 1, 
+
+if(기본){
+ refid = 내 자신의 id
+  renum =  1
+} else{
+   refid = 1 원글의 id
+   기존 renum + 1 where renum > 받은renum 
+   원글 renum + 1    
+}
+------------------------------------------------------------------------
+refid의 경우
+1. 기본 : refid 내자신의 id
+2. 만일 답글이면 : refid원글의 id
+
+renum
+1. 기본 : 1이 들어가고
+2. 만일 답글이면 : renum 보다 큰 숫자의 글은 모두+1 //
+                      원글 renum + 1, 
+
+    if(dto.getDepth() == 0){
+            	  updateDB(num, num, "refid");
+        	  
+            } else{
+            	   updateDB(dto.getRefid(),dto.getRenum());
+            	   updateDB(num, dto.getRefid()+1, "refid"); 
+            } 

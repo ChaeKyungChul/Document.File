@@ -1,0 +1,33 @@
+db 연동 
+mysql jdbc download
+https://dev.mysql.com/downloads/connector/j/
+-> platform independent - > archive 다운 ->(mysql-connector-j-8.3.0파일)  javawork -> apache-tomcat-9.0.46
+
+위에꺼안해도댐 아래꺼로 링크
+maven , gradle  -> 라이브 서버 편하게
+
+maven repository mysql connet  첫번쨰  8.3.0 클릭
+
+- 빌드 밖
+ <dependencies>
+    <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>8.3.0</version>
+</dependency>
+
+-> 디펜더씨 밑에 
+
+-------------------------------------------------------------------
+https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html < 쓸때없음 
+Class Summary
+-드라이버 메니져ㅋㄹ릭
+
+
+java.sql
+드라이버메니져
+드라이버 옆 커넥션클릭
+Driver, Connectionconnection
+Statement // PreparedStafement // << 옆 두개는 많이쓰임 (CallableStatement)
+ResultSet

@@ -1,0 +1,12 @@
+1. 회원테이블 생성
+
+ create table members()
+ 컬럼명
+ id(int), userid, userpass, username, useremail, usertel,
+ address(다음api), userlink, role(string), wdate(datetime)
+
+2. 회원가입폼 만들기
+ header, footer , aside 는 기존 파일 사용 include
+
+3. 회원가입 dto, class 만들기
+4. 회원가입 ok폼 만들기

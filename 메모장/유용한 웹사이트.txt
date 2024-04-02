@@ -6,3 +6,10 @@ git허브
 피그마
 소스트리
 파비콘제너레이트
+
+https://github.com/jquery-validation/jquery-validation/releases/tag/1.19.5
+
+who is < 도메인검사 호환성검색 쓸수잇는것
+https://mobaxterm.mobatek.net/   ssh접속ㅍ로그램  아마존?이용하는것
+
+파일즐라 : 파일전송

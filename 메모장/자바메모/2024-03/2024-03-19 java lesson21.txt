@@ -1,0 +1,19 @@
+2024-03-19 java lesson21
+
+1. ExpDto.class
+아이디, 비밀벊, 이메일, 주소 , 성별  변수를 만들고
+게터, 세터를 만드세요.
+
+2. myform.jsp
+ 아이디, 비밀번호 , 이메일 , 주소 , 성별 입력창을 만든후 
+myformok.jsp파일로 전송
+
+3.myformok 에서 user빈을 통해서 requset를 dto로 보내고 
+  dto에서 받은 값을 el액션 태그를 이용해서 출력하세요.   
+
+  el 태그 : 객체 이름.getuser  
+  <%=객체이름.getUsername()%>
+  {객체이름.username}
+ <jsp:getProperty property="userMail" name="객체이름" />
+
+ 

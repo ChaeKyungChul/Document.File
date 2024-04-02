@@ -1,0 +1,28 @@
+2024-03-21 sql
+세팅
+DELIMITER $$
+DROP PROCEDURE IF EXISTS loopInsert$$
+
+create procedure loopInsert()
+BEGIN
+  declare i int default 40;
+  while i <= 5000 do
+     insert into jboard(refid, title, content, writer, pass)
+     values (i, concat(i, '제목 입니다.'), concat(i, '내용 입니다.'), '홍길동', '1234');
+     SET i = i + 1;
+  END WHILE;
+END$$ 
+DELIMITER $$
+
+CALL loopInsert;
+
+/*limit  페이지 2하면 2개 페이지만 보이고 10개만보이고**/
+ select * from jboard order by id desc limit 10, 10; 
+전체게시글 수 select count(*) from 게시판;
+
+한번에 보일 목록수
+전체 페이지 수
+한번에 보일 페이지수
+limt 0 , 20
+
+총몇페이지 보여야하는가?

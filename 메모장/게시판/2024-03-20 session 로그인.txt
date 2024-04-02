@@ -1,0 +1,12 @@
+로그인
+1. session 부여
+ session userid
+  session role
+
+2. aside 로그인 부분
+  인사말 ---님 반갑습니다.
+   회원정보 수정
+   로그아웃 / 회원명단보기 (관리자인경우)
+  탈퇴 
+
+3. 필터를 이용해서 content 메뉴에 접근하지 못하도록
