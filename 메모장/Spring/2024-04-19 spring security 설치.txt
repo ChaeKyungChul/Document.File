@@ -1,0 +1,14 @@
+2024-04-19 spring security 설치
+
+javaEE ee을통해웹이만들어짐// -> 
+security (filter chail - filter chain)  //중간 검증
+WEB-INF > controller -> views (jsp)   //이동시켜주는 
+
+-security-config
+-security-web
+
+permitAll() //공개
+denyAll() // 모두 거부
+authenticated() // 인증
+
+protecte void configure(HttpSecurity http) 
