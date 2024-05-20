@@ -1,0 +1,41 @@
+2024- 04 - 08  Spring
+- dependency injection   -의존성주입 
+- ioc container  
+ XML---> 
+ @
+
+ApplicationContext 생성
+ApplicationContext context = new 어쩌구("config.xml");
+ -> ClassPathXmlApplication Context
+ -> FileSystemXmlApplicationContext
+ -> XmlWebApplictionContext
+ -> AnnotaionConfigApplicationContext
+
+
+Class A{
+   private B b;
+   pbluic C
+   this.  
+  }
+}
+
+Class A{
+  private B b;
+  public A(){}
+  public void setB(B b) {
+      this.b = b;
+   }
+}
+
+외부B
+
+
+t연습-------------------------------
+1.ch02
+2.program.class
+  실행메소드
+   Exam exam = new MyLecExam();
+3. Exam interfce --> 총점, 평균 (메소드 이름)
+4. MylecExam() --> 총점, 평균 오버라이드
+5. ui --> 인터페이스와 클래스이용해서 영문용 출력
+      한글용 출력

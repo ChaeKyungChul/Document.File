@@ -1,0 +1,42 @@
+2024-04-18 메이븐 프로젝트  세팅
+
+
+pom.xml -> war 오류
+mysecurity 프로퍼티 ->타겟런타임-> 아파치 프로
+
+webapp->WEB-INF -> web.xml 파일임 아래는
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>  -->> 파일이름
+        <welcome-file>index.htm</welcome-file>  --파일이름
+        <welcome-file>index.jsp</welcome-file>  -- 파일이름
+    </welcome-file-list>
+
+</web-app>
+->> web.xmp -> 주소값임 위에 파일
+---------------------------------------------------------------------------------------------------------------------------------
+<packaging>war</packaging> 밑에 자바버전
+<properties>
+		<java-version>11</java-version>
+		<org.springframework-version>5.2.25.RELEASE</org.springframework-version>
+	</properties>
+dispatcher servlet  사용하기위해
+spring web mvc  설치
+servlet-api 설치
+junit 오류화긴    -> 위3개 pom.xml에설치
+jstl   설치
+--------------------------------------------
+디펜던시 밖에
+ <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                   
+                </configuration>
+---------------------------------
+WebApplnitializer
+
+
+------------------

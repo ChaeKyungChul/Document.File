@@ -1,0 +1,7 @@
+포트죽이는법
+명령프롬포트
+netstat -a -o
+
+8081 포트의 PID를 외움
+
+taskkill /f /pid 번호

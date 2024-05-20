@@ -1,0 +1,16 @@
+2024 -04-09 Spring 설정 
+docs.spring.io/spring-framework/docs
+
+
+1.maven 프로젝트 생성
+2. utf-8 바꿈
+3. pom.xml 수정 (자바버전 업데이트)
+4. WEB-INF/web.xml 생성
+5. maven tocat-api 설치
+6. inex.jsp 만들고 server 설치 및 실행
+7. maven spring web-mvc 설치
+8. servlet에 dispatcher 서블릿 등록
+9. servlet에 만든 dispatcher servlet 이름으로 xml 생성
+10. controller 생성 및 xml에 경로 등록
+11. WEB-INF 폴더 내에 view 폴더 만들고 index.jsp를 옮김
+12. 실행 

@@ -1,0 +1,24 @@
+2024-05-20  
+1.java version ==> open java17 버전
+2.현 윈도우 패스 11===> vs code 에 17버전을세팅  --> 설치 프로그램파일안에
+3. vscode 스프링부트 플러그인설치.
+4. vscode - extention pack  
+- spring boot extension pack
+- spring boot developer extension pack
+- thymeleaf   
+5. vs code 자바 버전별로 인식시키기
+   -settings --> java home ==> settings.json
+    "java.configuration.runtimes" : [
+     {
+             "name" : javaSE-11",
+            "path": "경로"
+          },
+     {
+
+           "name":"javaSE-17",
+           "path:" "경로",
+           "default" : true
+}]
+https://start.spring.io/
+->
+1. mysql, 2. jpa 3.thymeleaf, 4 web serviece
