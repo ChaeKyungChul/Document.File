@@ -1,0 +1,22 @@
+2024-05-30 DOCKER 
+DOCKER : 배포관리자
+https://hub.docker.com/
+---> 톰켓 , mysql, 아파치, (프로그램) --> 도커에서는 ->> image 라고함 (pull이란 명령으로 이미지를 다운받는다.)
+---> 프로세스 ---> container ---> 
+
+톰켓 (image) ---> was01 (서버)(container) (run으로 실행)
+	           was2 (container) 
+
+
+설치후 -- > docker image 
+               docker version
+
+docker pull httpd << 명령어창에 입력 httpd를 설치하겠따
+docker pull tomcat:9.0-jdk11-temurin-focal < 톰켓설치
+docker run httpd << 명령 프롬프트로 실행  --> docker ps 실행중인것확인방법
+아파치로 8080 런실행
+
+
+docer run -p 3000:80 --name web01 ㅣㅁㅅㄷㄴㅅ
+
+cd htdocs 경로

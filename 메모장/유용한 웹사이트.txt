@@ -14,7 +14,8 @@ who is < 도메인검사 호환성검색 쓸수잇는것
 https://mobaxterm.mobatek.net/   ssh접속ㅍ로그램  아마존?이용하는것
 https://summernote.org/ 게시판
 https://data.gg.go.kr/portal/data/service/selectServicePage.do?page=1&sortColumn=&sortDirection=&infId=YBSSB8F816M3B966AB6K30423820&infSeq=1&searchWord=%EC%9D%8C%EC%8B%9D%EC%A0%90
-
+https://www.docker.com/     << 배포관리자도커
+https://red-water-718077.postman.co/redirect/workspace?recentlyVisited=true << db사이트
 파일즐라 : 파일전송
 ]
 https://www.egovframe.go.kr/home/main.do

@@ -1,0 +1,53 @@
+도커 
+cli로 명령어 로 서버설치 
+docker pull httpd   
+
+1. docker run -d -p 2500:80 --name web01 httpd            --> 만들어짐
+-p = 포트번호 2500도커 기본80 , 앞은컴퓨터 포트 : 도커포트
+-d 백그라운드로 컨테이너를 실행한다
+--name 컨테이너를
+httpd --> 사용할 도커 이미지 
+
+도커로 안에 들어가는것 (리눅스진입)    
+cd ..   cd.. 두번
+2.  - docker exec web01 pwd 경로화긴?
+    -docker exec web01 ls -a   (ls목록, a모든것)
+
+3. 도커 안에 지속적으로 진입
+   -interactive (-i)
+   -tty (-t)
+ -->>  docker exec -it web01 
+-->>  docker exec -it web01  /bin/sh   <<쉘을보겟다
+--> docker exec -it web01 /bin/bash 쉘 업그레이드된것    --> root@0029b2571241:/usr/local/apache2# 표기됨
+
+--> cd htdocs  , -> ls index,html 나옴  -->  nano index.html (메모장으로쓰겟다 < 근대안됨) -> apt update -> apt install nano
+--> nano index.html (창바뀜 실행가능)  --> 컨트롤 o 저장됨 컨트롤 x 나가짐
+
+
+썜정리 
+. nano를 설치해서 index.html을 수정해 보기
+ 1. apt update  -- 설치관리자 최신판으로 업데이트
+ 2. apt install nano  -- apt 설치관리자를 이용해 nano 설치
+--> docker exec -it web01 /bin/bash
+ 3. pwd 해서 현재 디렉토리 확인 htdocs 안에 있어야 한다.
+ 4. nano index.html -- nano로 index.html을 편집
+
+5. docker run -d -p 3500:80 -v c:/youjae/www:/usr/local/apache2/htdocs --name web02 httpd  <<썜주소
+   docker run -d -p 3500:80 -v c:/portfolio/iPortfolio:/usr/local/apache2/htdocs --name web05 httpd  <<명령프트로 만든것
+
+
+
+
+
+
+---> spboard 배포방법
+ 오른쪽클릭 expot  wab war --> 다체크
+ROOT.war  <<만듬  --> www폴더에 넣음 
+Dockerfile   <<vs코드    
+
+와르 도커 파일 같이있어야함
+https://archive.apache.org/dist/tomcat/tomcat-9/
+
+--> vs 터미널에서
+docker build -t tomcat-www .
+docker run -p 8080:8080 tomcat-www 
